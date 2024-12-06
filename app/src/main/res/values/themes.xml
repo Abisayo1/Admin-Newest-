@@ -24,6 +24,22 @@
         <item name="windowSplashScreenBackground">@color/blue</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/splash</item>
         <item name="postSplashScreenTheme">@style/Base.Theme.CloudSpace_Scophy</item>
-
     </style>
+
+        <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+            <item name="windowSplashScreenBackground">@color/blue</item>
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+        </style>
+
+        <style name="AppTheme.AppBarOverlay"
+            parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    <item name="windowSplashScreenBackground">@color/blue</item>/>
+        </style>
+
+        <style name="AppTheme.PopupOverlay"
+            parent="ThemeOverlay.AppCompat.Light">
+    <item name="windowSplashScreenBackground">@color/blue</item>
+        </style>
+
 </resources>

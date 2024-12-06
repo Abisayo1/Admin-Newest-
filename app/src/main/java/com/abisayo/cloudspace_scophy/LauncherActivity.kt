@@ -58,10 +58,10 @@ class LauncherActivity : AppCompatActivity() {
             .setConfirmationRequired(false)
             .build()
 
-//        binding.button2.setOnClickListener {
-//            val intent = Intent(this, MainActivity::class.java)
-//            startActivity(intent)
-//        }
+        binding.processAdmin.setOnClickListener {
+            val intent = Intent(this, ProcessAdmissionActivity::class.java)
+            startActivity(intent)
+        }
 
 
 

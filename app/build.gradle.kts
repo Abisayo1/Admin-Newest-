@@ -56,5 +56,8 @@ dependencies {
     implementation(libs.androidx.core.splashscreen)
     implementation(libs.circleimageview)
     implementation(libs.androidx.biometric.ktx.v120alpha05)
+    implementation(libs.androidx.material)
+
+
 
 }

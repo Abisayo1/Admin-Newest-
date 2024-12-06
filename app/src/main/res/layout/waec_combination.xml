@@ -1,0 +1,198 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Your WAEC Subjects (Pick up to 9)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp" />
+
+        <!-- Compulsory Subjects -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Compulsory Subjects"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <CheckBox
+            android:id="@+id/subject_english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English Language"
+            android:checked="true"
+            android:clickable="false" />
+
+        <CheckBox
+            android:id="@+id/subject_mathematics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mathematics"
+            android:checked="true"
+            android:clickable="false" />
+
+        <!-- Language Options -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language Options"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <CheckBox
+            android:id="@+id/subject_arabic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arabic" />
+
+        <CheckBox
+            android:id="@+id/subject_biblical_studies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biblical Studies" />
+
+        <CheckBox
+            android:id="@+id/subject_crs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Christian Religious Studies (CRS)" />
+
+        <CheckBox
+            android:id="@+id/subject_french"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="French" />
+
+        <CheckBox
+            android:id="@+id/subject_hausa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hausa" />
+
+        <CheckBox
+            android:id="@+id/subject_igbo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Igbo" />
+
+        <CheckBox
+            android:id="@+id/subject_is"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Islamic Studies (IS)" />
+
+        <CheckBox
+            android:id="@+id/subject_literature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Literature-in-English" />
+
+        <CheckBox
+            android:id="@+id/subject_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music" />
+
+        <CheckBox
+            android:id="@+id/subject_yoruba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yoruba" />
+
+        <!-- Science Options -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Science Options"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <CheckBox
+            android:id="@+id/subject_agriculture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agricultural Science" />
+
+        <CheckBox
+            android:id="@+id/subject_biology"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biology" />
+
+        <CheckBox
+            android:id="@+id/subject_chemistry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chemistry" />
+
+        <CheckBox
+            android:id="@+id/subject_physics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Physics" />
+
+        <CheckBox
+            android:id="@+id/subject_further_math"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Further Mathematics" />
+
+        <!-- Commerce and Social Sciences Options -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Commerce and Social Sciences Options"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <CheckBox
+            android:id="@+id/subject_accounting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accounting" />
+
+        <CheckBox
+            android:id="@+id/subject_business_management"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Business Management" />
+
+        <CheckBox
+            android:id="@+id/subject_commerce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Commerce" />
+
+        <CheckBox
+            android:id="@+id/subject_economics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Economics" />
+
+        <CheckBox
+            android:id="@+id/subject_government"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Government" />
+        <!-- Add other subject categories here -->
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

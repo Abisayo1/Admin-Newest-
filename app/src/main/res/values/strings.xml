@@ -5,6 +5,32 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <string-array name="grades_array">
+        <item>A1</item>
+        <item>B2</item>
+        <item>B3</item>
+        <item>C4</item>
+        <item>C5</item>
+        <item>C6</item>
+        <item>D7</item>
+        <item>E8</item>
+        <item>F9</item>
+    </string-array>
+
+
+    <string-array name="waec_grades">
+        <item>A1 (Excellent)</item>
+        <item>B2 (Very Good)</item>
+        <item>B3 (Good)</item>
+        <item>C4 (Credit)</item>
+        <item>C5 (Credit)</item>
+        <item>C6 (Credit)</item>
+        <item>D7 (Pass)</item>
+        <item>E8 (Pass)</item>
+        <item>F9 (Fail)</item>
+    </string-array>
+
+
     <string name="forgot_password_msg">Don\'t worry! it happens. Please enter the email address associated with your account.</string>
     <string name="on_submit_msg">Check out your mailbox, you will receive an email containing link where you can reset your password</string>
 </resources>

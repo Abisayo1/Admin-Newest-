@@ -11,6 +11,8 @@ appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.9.0"
 constraintlayout = "2.1.4"
+googleGmsGoogleServices = "4.4.2"
+firebaseDatabase = "21.0.0"
 
 [libraries]
 androidx-biometric-ktx = { module = "androidx.biometric:biometric-ktx", version.ref = "biometricKtx" }
@@ -26,10 +28,12 @@ androidx-constraintlayout = { group = "androidx.constraintlayout", name = "const
 androidx-core-splashscreen = "androidx.core:core-splashscreen:1.0.1"
 circleimageview = "de.hdodenhof:circleimageview:3.1.0"
 androidx-material = "com.google.android.material:material:1.12.0"
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
 
 
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
 

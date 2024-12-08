@@ -4,17 +4,10 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.biometric.BiometricPrompt
-import androidx.biometric.BiometricPrompt.PromptInfo
 import androidx.core.content.ContextCompat
-import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.abisayo.cloudspace_scophy.databinding.ActivityLauncherBinding
-import com.google.firebase.Firebase
-import com.google.firebase.auth.auth
 import java.util.concurrent.Executor
 
 class LauncherActivity : AppCompatActivity() {
@@ -61,6 +54,11 @@ class LauncherActivity : AppCompatActivity() {
         binding.processAdmin.setOnClickListener {
             val intent = Intent(this, ProcessAdmissionActivity::class.java)
             startActivity(intent)
+        }
+
+        binding.manageCandidate.setOnClickListener {
+//            val intent = Intent(this, GiveAdmissionActivity::class.java)
+//            startActivity(intent)
         }
 
 

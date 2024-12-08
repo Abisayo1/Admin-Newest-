@@ -59,7 +59,7 @@ class Biometrics : Fragment() {
 
             // Send Data to Firebase
             val database = FirebaseDatabase.getInstance()
-            val ref = database.getReference("$userId").child("biometrics")
+            val ref = database.getReference("biometrics").child("$userId")
             ref.setValue(data).addOnCompleteListener { task ->
                 if (task.isSuccessful) {
                     Toast.makeText(context, "Data submitted successfully", Toast.LENGTH_SHORT).show()

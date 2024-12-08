@@ -90,7 +90,7 @@ class EnterWACESubjects : Fragment() {
             val userId = auth.currentUser?.uid
             if (userId != null) {
                 val waecCombinations = selectedSubjects.associate { it.first to it.second }
-                database.child(userId).child("WAEC Combinations").setValue(waecCombinations)
+                database.child("WAEC").child(userId).setValue(waecCombinations)
                     .addOnSuccessListener {
                         Toast.makeText(requireContext(), "WAEC Combinations saved successfully!", Toast.LENGTH_SHORT).show()
                         clearSelections(subjects, gradeEnglishSpinner, gradeMathSpinner)

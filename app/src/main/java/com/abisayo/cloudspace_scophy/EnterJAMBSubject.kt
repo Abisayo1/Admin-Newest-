@@ -75,8 +75,8 @@ class EnterJAMBSubject : Fragment() {
         val userId = auth.currentUser?.uid
 
         // Save selected subjects to Firebase
-        val database = FirebaseDatabase.getInstance().reference.child("$userId")
-        database.child("JAMB_Subjects").setValue(selectedSubjects).addOnCompleteListener { task ->
+        val database = FirebaseDatabase.getInstance().reference.child("JAMB_Subjects")
+        database.child("$userId").setValue(selectedSubjects).addOnCompleteListener { task ->
             if (task.isSuccessful) {
                 // Clear all checkboxes upon success
                 checkBoxes.forEach { it.isChecked = false }

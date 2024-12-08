@@ -15,9 +15,15 @@
         android:theme="@style/Base.Theme.CloudSpace_Scophy"
         tools:targetApi="31">
         <activity
-            android:name=".ProcessAdmissionActivity"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".ApplicantsInfoActivity"
             android:exported="false" />
+        <activity
+            android:name=".GiveAdmissionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProcessAdmissionActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".AdmissionStatusActivity"
             android:exported="false" />

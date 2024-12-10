@@ -1,0 +1,121 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card_background"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Information"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FF5722"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Biometrics Section -->
+        <TextView
+            android:id="@+id/tvJambRegNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JAMB Registration No:"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvWaecRegNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WAEC Registration No:"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvWaecScratchCardNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WAEC Scratch Card No:"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvUtmeScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UTME Score:"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- WAEC Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WAEC Results"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/tvWaecSubjects"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="8dp" />
+
+        <!-- JAMB Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JAMB Subjects"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/tvJambSubjects"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Admission Status:"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:textColor="#000" />
+
+        <Spinner
+            android:id="@+id/spinnerAdmissionStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@android:drawable/btn_dropdown" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmitStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Submit Status"
+            android:background="#FF5722"
+            android:textColor="#FFF"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</ScrollView>

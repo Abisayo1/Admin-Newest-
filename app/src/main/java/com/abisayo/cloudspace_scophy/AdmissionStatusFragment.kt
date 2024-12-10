@@ -37,7 +37,7 @@ class AdmissionStatusFragment : Fragment() {
 
         val userId = auth.currentUser?.uid
         if (userId != null) {
-            database.child(userId).child("AdmissionStatus").get()
+            database.child("AdmissionStatus").child(userId).get()
                 .addOnSuccessListener { snapshot ->
                     val status = snapshot.value as? String ?: "Not Available"
                     statusText.text = "Your Admission Status: $status"

@@ -15,6 +15,12 @@
         android:theme="@style/Base.Theme.CloudSpace_Scophy"
         tools:targetApi="31">
         <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".ApplicantsInfoActivity"
             android:exported="false" />
         <activity

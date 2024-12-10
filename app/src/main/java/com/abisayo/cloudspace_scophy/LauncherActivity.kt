@@ -57,8 +57,8 @@ class LauncherActivity : AppCompatActivity() {
         }
 
         binding.manageCandidate.setOnClickListener {
-//            val intent = Intent(this, GiveAdmissionActivity::class.java)
-//            startActivity(intent)
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
         }
 
 

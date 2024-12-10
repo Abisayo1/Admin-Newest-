@@ -54,7 +54,8 @@ class Biometrics : Fragment() {
                 "utmeScore" to utmeScore.text.toString(),
                 "jambRegNo" to jambRegNo.text.toString(),
                 "waecRegNo" to waecRegNo.text.toString(),
-                "waecScratchCardNo" to waecScratchCardNo.text.toString()
+                "waecScratchCardNo" to waecScratchCardNo.text.toString(),
+                "id" to userId
             )
 
             // Send Data to Firebase
